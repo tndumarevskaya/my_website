@@ -1,0 +1,90 @@
+.header {
+    display: flex;
+    background: white !important;
+    width: 400px;
+    border-radius: 0 0 50px 0;
+    justify-content: flex-end;
+    gap: 120px;
+}
+
+.header > p {
+    padding-right: 50px;
+    color: #4276b7;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Raleway', sans-serif;
+}
+
+.sims_round {
+    width: 50px;
+    position: relative;
+    top: 24px; left: 0px;
+}
+
+.me {
+    display: block;
+    position: relative;
+    margin-left: 660px;
+    margin-right: auto;
+    top: -100px;
+    width: 500px;
+}
+
+.logo {
+    width: 80px;
+    position: relative;
+    top: -60px;
+    left: 1200px;
+}
+
+.start_2 {
+    width: 80px;
+    position: relative;
+    top: -40px;
+    left: 1210px;
+}
+
+.sims_above_head {
+    width: 50px;
+    position: relative;
+    top: 60px;
+    left: 700px;
+}
+
+.qualities {
+    position: relative;
+    top: -660px;
+    left: 160px;
+    display: flex;
+    gap: 16px;
+}
+
+.column1, .column2 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.quality {
+    display: flex;
+    background-color: rgba(60,185,225, 0.8);
+    width: 116px;
+    height: 116px;
+    border-radius: 20px;
+}
+
+svg {
+    margin: auto auto;
+}
+
+.quality:hover{
+    background-color: #8AD5ED;
+}
+
+.quality:focus {
+    background-color: #8AD5ED;
+}
+
+.quality:active {
+    background-color: #8AD5ED;
+}
+
